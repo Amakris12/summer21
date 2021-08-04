@@ -1,0 +1,71 @@
+$font:'Times New Roman', Times, serif;
+
+body{
+    font-family: $font;
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+    #top{
+        position: relative;
+        right: 1rem;
+        top: -3.5rem;
+        background-color: rgb(0, 0, 0);
+        height: 12rem;
+        width: 97rem;
+        border-bottom: rgb(80, 191, 255) groove .5rem;
+    }
+    #header{
+        text-align: center;
+        color: rgb(80, 191, 255);
+        font-size: 5rem;
+    }
+    #sub{
+        text-align: center;
+        color: rgb(80, 191, 255);
+        font-size: 3rem;
+        margin-top: -1rem;
+    }
+    #sun{
+        position: absolute;
+        left: 3rem;
+        top: 0rem;
+        width: 15rem;
+        height: 12rem;
+    }
+    #LeftBut{
+        position: absolute;
+        left: 20rem;
+        margin-top: 5rem;
+        width: 20rem;
+        height: 5rem;
+        box-shadow: 2px 2px 2px 2px black;
+        background-color: black;
+        color: rgb(80, 191, 255);
+        font-size: 1rem;
+    }
+    #RightBut{
+        position: absolute;
+        right: 20rem;
+        margin-top: 30rem;
+        width: 20rem;
+        height: 5rem;
+        box-shadow: 2px 2px 2px 2px black;
+        background-color: black;
+        color: rgb(80, 191, 255);
+        font-size: 1rem;
+    }
+    #What{
+        display: none;
+        width: 30rem;
+        position: absolute;
+        left: 13rem;
+        text-align: center;
+    }
+    #title{
+        font-size: 3rem;
+        box-shadow: 2px 2px 2px 2px rgb(80, 191, 255);
+    }
+    #Description{
+        font-size: 1.4rem;
+        box-shadow: 2px 2px 2px 2px rgb(80, 191, 255);
+    }
+}

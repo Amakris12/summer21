@@ -1,0 +1,83 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  overflow-x: hidden;
+  background-color: white;
+}
+
+body #top {
+  position: relative;
+  right: 1rem;
+  top: -3.5rem;
+  background-color: black;
+  height: 12rem;
+  width: 97rem;
+  border-bottom: #50bfff groove 0.5rem;
+}
+
+body #header {
+  text-align: center;
+  color: #50bfff;
+  font-size: 5rem;
+}
+
+body #sub {
+  text-align: center;
+  color: #50bfff;
+  font-size: 3rem;
+  margin-top: -1rem;
+}
+
+body #sun {
+  position: absolute;
+  left: 3rem;
+  top: 0rem;
+  width: 15rem;
+  height: 12rem;
+}
+
+body #LeftBut {
+  position: absolute;
+  left: 20rem;
+  margin-top: 5rem;
+  width: 20rem;
+  height: 5rem;
+  -webkit-box-shadow: 2px 2px 2px 2px black;
+          box-shadow: 2px 2px 2px 2px black;
+  background-color: black;
+  color: #50bfff;
+  font-size: 1rem;
+}
+
+body #RightBut {
+  position: absolute;
+  right: 20rem;
+  margin-top: 30rem;
+  width: 20rem;
+  height: 5rem;
+  -webkit-box-shadow: 2px 2px 2px 2px black;
+          box-shadow: 2px 2px 2px 2px black;
+  background-color: black;
+  color: #50bfff;
+  font-size: 1rem;
+}
+
+body #What {
+  display: none;
+  width: 30rem;
+  position: absolute;
+  left: 13rem;
+  text-align: center;
+}
+
+body #title {
+  font-size: 3rem;
+  -webkit-box-shadow: 2px 2px 2px 2px #50bfff;
+          box-shadow: 2px 2px 2px 2px #50bfff;
+}
+
+body #Description {
+  font-size: 1.4rem;
+  -webkit-box-shadow: 2px 2px 2px 2px #50bfff;
+          box-shadow: 2px 2px 2px 2px #50bfff;
+}
+/*# sourceMappingURL=index.css.map */

@@ -30,6 +30,30 @@ body #sub {
   margin-top: -1rem;
 }
 
+body #nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body #bar {
+  width: 15rem;
+  height: 4rem;
+  background-color: transparent;
+  -webkit-box-shadow: 2px 2px 2px 2px #50bfff;
+          box-shadow: 2px 2px 2px 2px #50bfff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 body #sun {
   position: absolute;
   left: 3rem;
@@ -38,34 +62,7 @@ body #sun {
   height: 12rem;
 }
 
-body #LeftBut {
-  position: absolute;
-  left: 20rem;
-  margin-top: 5rem;
-  width: 20rem;
-  height: 5rem;
-  -webkit-box-shadow: 2px 2px 2px 2px black;
-          box-shadow: 2px 2px 2px 2px black;
-  background-color: black;
-  color: #50bfff;
-  font-size: 1rem;
-}
-
-body #RightBut {
-  position: absolute;
-  right: 20rem;
-  margin-top: 45rem;
-  width: 20rem;
-  height: 5rem;
-  -webkit-box-shadow: 2px 2px 2px 2px black;
-          box-shadow: 2px 2px 2px 2px black;
-  background-color: black;
-  color: #50bfff;
-  font-size: 1rem;
-}
-
 body #What {
-  display: none;
   width: 30rem;
   position: absolute;
   left: 13rem;
@@ -90,6 +87,16 @@ body #us {
   top: -26rem;
   width: 35rem;
   height: 40rem;
+  -webkit-box-shadow: 2px 2px 2px 2px #50bfff;
+          box-shadow: 2px 2px 2px 2px #50bfff;
+}
+
+body #icecream {
+  position: absolute;
+  left: 10rem;
+  width: 35rem;
+  height: 40rem;
+  top: 50rem;
   -webkit-box-shadow: 2px 2px 2px 2px #50bfff;
           box-shadow: 2px 2px 2px 2px #50bfff;
 }

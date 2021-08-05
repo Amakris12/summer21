@@ -11,7 +11,7 @@ body{
         position: relative;
         right: 1rem;
         top: -3.5rem;
-        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0,.9);
         height: 12rem;
         width: 97rem;
         border-bottom: rgb(80, 191, 255) groove .5rem;
@@ -40,6 +40,8 @@ body{
         font-family: $font;
         font-size: 1.5rem;
         font-weight: bold;
+        background-color: rgba(0, 0, 0,.9);
+        color: rgb(80, 191, 255);
     }
     #sun{
         position: absolute;
@@ -53,14 +55,17 @@ body{
         position: absolute;
         left: 13rem;
         text-align: center;
+        color: rgb(80, 191, 255);
     }
     #title{
         font-size: 3rem;
         box-shadow: 2px 2px 2px 2px rgb(80, 191, 255);
+        background-color: rgba(0, 0, 0,.9);
     }
     #Description{
         font-size: 1.4rem;
         box-shadow: 2px 2px 2px 2px rgb(80, 191, 255);
+        background-color: rgba(0, 0, 0,.9);
     }
     #us{
         position: relative;
@@ -77,5 +82,55 @@ body{
         height: 40rem;
         top: 50rem;
         box-shadow: 2px 2px 2px 2px rgb(80, 191, 255);
+    }
+    #Why{
+        width: 30rem;
+        height: 25rem;
+        position: absolute;
+        right: 10rem;
+        top: 65rem;
+        text-align: center;
+        
+    }
+    #great{
+        font-size: 3rem;
+        box-shadow: 2px 2px 2px 2px rgb(80, 191, 255);
+        background-color: rgba(0, 0, 0,.9);
+        color: rgb(80, 191, 255);
+    }
+    #meaning{
+        height: 18rem;
+        font-size: 1.7rem;
+        box-shadow: 2px 2px 2px 2px rgb(80, 191, 255);
+        background-color: rgba(0, 0, 0,.9);
+        color: rgb(80, 191, 255);
+    }
+    #pics{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 73rem;
+    }
+    #pictures{
+        width: 30rem;
+        height: 30rem;
+        box-shadow: 2px 2px 2px 2px rgb(80, 191, 255);
+    }
+    #head{
+        position: relative;
+        top: 70rem;
+        left: 0rem;
+        font-size: 4rem;
+        text-align: center;
+        color: rgb(80, 191, 255);
+        background-color: rgba(0, 0, 0,.9);
+        box-shadow: 2px 2px 2px 2px rgb(80, 191, 255);
+        width: 50rem;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    #footer{
+        text-align: center;
+        font-size: 2rem;
     }
 }
